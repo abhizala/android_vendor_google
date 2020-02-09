@@ -437,9 +437,13 @@ PRODUCT_COPY_FILES += \
     vendor/google/flame/proprietary/product/lib64/vendor.qti.ims.rcsconfig@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.ims.rcsconfig@1.0.so \
     vendor/google/flame/proprietary/product/lib64/vendor.qti.imsrtpservice@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.imsrtpservice@2.0.so \
     vendor/google/flame/proprietary/product/lib64/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/vendor.qti.latency@2.0.so \
+    vendor/google/flame/proprietary/product/priv-app/DMService/lib/arm/libdmengine.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/DMService/lib/arm/libdmengine.so \
+    vendor/google/flame/proprietary/product/priv-app/DMService/lib/arm/libdmjavaplugin.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/DMService/lib/arm/libdmjavaplugin.so \
     vendor/google/flame/proprietary/product/priv-app/EuiccGoogle/esim-a1.img:$(TARGET_COPY_OUT_PRODUCT)/priv-app/EuiccGoogle/esim-a1.img \
     vendor/google/flame/proprietary/product/priv-app/EuiccGoogle/esim-a2.img:$(TARGET_COPY_OUT_PRODUCT)/priv-app/EuiccGoogle/esim-a2.img \
     vendor/google/flame/proprietary/product/priv-app/EuiccSupportPixel/esim-full-v1.img:$(TARGET_COPY_OUT_PRODUCT)/priv-app/EuiccSupportPixel/esim-full-v1.img \
+    vendor/google/flame/proprietary/product/priv-app/ims/lib/arm64/libimscamera_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ims/lib/arm64/libimscamera_jni.so \
+    vendor/google/flame/proprietary/product/priv-app/ims/lib/arm64/libimsmedia_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/ims/lib/arm64/libimsmedia_jni.so \
     vendor/google/flame/proprietary/product/priv-app/MyVerizonServices/lib/arm64/libakuaf.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/MyVerizonServices/lib/arm64/libakuaf.so \
     vendor/google/flame/proprietary/product/priv-app/MyVerizonServices/lib/arm64/libmotricity.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/MyVerizonServices/lib/arm64/libmotricity.so \
     vendor/google/flame/proprietary/product/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so:$(TARGET_COPY_OUT_PRODUCT)/priv-app/SCONE/lib/arm64/libborders_scone_leveldb_jni.so
