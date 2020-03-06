@@ -43,7 +43,6 @@ PRODUCT_PACKAGES += \
     CarrierSettings \
     CarrierSetup \
     CarrierWifi \
-    CbrsNetworkMonitor \
     ConnMO \
     DCMO \
     DiagMon \
@@ -59,7 +58,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleHEMIDELTA \
     ims \
     LLKAgent \
-    MaestroPrebuilt \
     MyVerizonServices \
     OBDM_Permissions \
     obdm_stub \
@@ -68,9 +66,7 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     RefreshRateControl \
     RilConfigService \
-    SafetyHubPrebuilt \
     SCONE \
-    ScribePrebuilt \
     Showcase \
     SprintDM \
     SprintHM \

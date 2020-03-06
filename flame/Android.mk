@@ -273,18 +273,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := CbrsNetworkMonitor
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/product/priv-app/CbrsNetworkMonitor/CbrsNetworkMonitor.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_PRODUCT_MODULE := true
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := ConnMO
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/product/priv-app/ConnMO/ConnMO.apk
@@ -468,18 +456,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := MaestroPrebuilt
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/product/priv-app/MaestroPrebuilt/MaestroPrebuilt.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-LOCAL_PRODUCT_MODULE := true
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := MyVerizonServices
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/product/priv-app/MyVerizonServices/MyVerizonServices.apk
@@ -576,33 +552,9 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SafetyHubPrebuilt
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/product/priv-app/SafetyHubPrebuilt/SafetyHubPrebuilt.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRODUCT_MODULE := true
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := SCONE
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/product/priv-app/SCONE/SCONE.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRODUCT_MODULE := true
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := ScribePrebuilt
-LOCAL_MODULE_OWNER := google
-LOCAL_SRC_FILES := proprietary/product/priv-app/ScribePrebuilt/ScribePrebuilt.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
