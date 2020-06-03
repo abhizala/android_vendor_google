@@ -2,27 +2,27 @@
 
 echo -e "\n\n**** Copying proprietary app ****"
 APP_SRC=/media/vendor/app
-APP_DST=/data/android_vendor_google/flame/proprietary/app
+APP_DST=$PWD/flame/proprietary/app
 cp -v --no-preserve=mode,ownership $APP_SRC/CACertService/CACertService.apk $APP_DST/CACertService/
 cp -v --no-preserve=mode,ownership $APP_SRC/CneApp/CneApp.apk $APP_DST/CneApp/
 cp -v --no-preserve=mode,ownership $APP_SRC/IWlanService/IWlanService.apk $APP_DST/IWlanService/
 
 echo -e "\n\n**** Copying proprietary binaries ****"
 BIN_SRC=/media/_/system/bin/
-BIN_DST=/data/android_vendor_google/flame/proprietary/bin
+BIN_DST=$PWD/flame/proprietary/bin
 cp -v --no-preserve=mode,ownership $BIN_SRC/iw $BIN_DST/
 cp -v --no-preserve=mode,ownership $BIN_SRC/move_time_data.sh $BIN_DST/
 
 echo -e "\n\n**** Copying proprietary configs ****"
 PERM_SRC=/media/_/system/etc/permissions
-PERM_DST=/data/android_vendor_google/flame/proprietary/etc/permissions
+PERM_DST=$PWD/flame/proprietary/etc/permissions
 cp -v --no-preserve=mode,ownership $PERM_SRC/com.qti.snapdragon.sdk.display.xml $PERM_DST/
 cp -v --no-preserve=mode,ownership $PERM_SRC/privapp-permissions-google.xml $PERM_DST/
 cp -v --no-preserve=mode,ownership $PERM_SRC/privapp-permissions-platform.xml $PERM_DST/
 
 echo -e "\n\n**** Copying proprietary framwork ****"
 FW_SRC=/media/_/system/framework
-FW_DST=/data/android_vendor_google/flame/proprietary/framework
+FW_DST=$PWD/flame/proprietary/framework
 cp -v --no-preserve=mode,ownership $FW_SRC/com.qti.snapdragon.sdk.display.jar $FW_DST/
 cp -v --no-preserve=mode,ownership $FW_SRC/com.qualcomm.qti.uceservice-V2.0-java.jar $FW_DST/
 cp -v --no-preserve=mode,ownership $FW_SRC/vendor.qti.hardware.alarm-V1.0-java.jar $FW_DST/
@@ -34,7 +34,7 @@ cp -v --no-preserve=mode,ownership $FW_SRC/vendor.qti.voiceprint-V1.0-java.jar $
 echo -e "\n\n**** Copying proprietary libraries (32-bit) ****"
 LIB_SRC=/media/_/system/lib
 LIB_SRC_2=/media/vendor/lib
-LIB_DST=/data/android_vendor_google/flame/proprietary/lib
+LIB_DST=$PWD/flame/proprietary/lib
 cp -v --no-preserve=mode,ownership $LIB_SRC/android.hardware.radio@1.3.so $LIB_DST/
 cp -v --no-preserve=mode,ownership $LIB_SRC/android.hardware.radio@1.4.so $LIB_DST/
 cp -v --no-preserve=mode,ownership $LIB_SRC/com.qualcomm.qti.bluetooth_audio@1.0.so $LIB_DST/
@@ -106,7 +106,7 @@ cp -v --no-preserve=mode,ownership $LIB_SRC_2/vendor.qti.hardware.cacert@1.0.so 
 echo -e "\n\n**** Copying proprietary libraries (64-bit) ****"
 LIB64_SRC=/media/_/system/lib64
 LIB64_SRC_2=/media/vendor/lib64
-LIB64_DST=/data/android_vendor_google/flame/proprietary/lib64
+LIB64_DST=$PWD/flame/proprietary/lib64
 cp -v --no-preserve=mode,ownership $LIB64_SRC/android.hardware.radio@1.3.so $LIB64_DST/
 cp -v --no-preserve=mode,ownership $LIB64_SRC/android.hardware.radio@1.4.so $LIB64_DST/
 cp -v --no-preserve=mode,ownership $LIB64_SRC/com.qualcomm.qti.bluetooth_audio@1.0.so $LIB64_DST/
@@ -177,7 +177,7 @@ cp -v --no-preserve=mode,ownership $LIB64_SRC_2/vendor.qti.hardware.cacert@1.0.s
 
 echo -e "\n\n**** Copying proprietary product apps ****"
 PAPP_SRC=/media/product/app
-PAPP_DST=/data/android_vendor_google/flame/proprietary/product/app
+PAPP_DST=$PWD/flame/proprietary/product/app
 cp -v --no-preserve=mode,ownership $PAPP_SRC/atfwd/atfwd.apk $PAPP_DST/atfwd/
 cp -v --no-preserve=mode,ownership $PAPP_SRC/colorservice/colorservice.apk $PAPP_DST/colorservice/
 cp -v --no-preserve=mode,ownership $PAPP_SRC/com.qualcomm.qti.services.secureui/com.qualcomm.qti.services.secureui.apk $PAPP_DST/com.qualcomm.qti.services.secureui/
@@ -194,7 +194,7 @@ cp -v --no-preserve=mode,ownership $PAPP_SRC/VZWAPNLib/VZWAPNLib.apk $PAPP_DST/V
 
 echo -e "\n\n**** Copying proprietary product configs ****"
 PETC_SRC=/media/product/etc
-PETC_DST=/data/android_vendor_google/flame/proprietary/product/etc
+PETC_DST=$PWD/flame/proprietary/product/etc
 cp -v --no-preserve=mode,ownership $PETC_SRC/ambient/matcher_tah.leveldb $PETC_DST/ambient/
 cp -v --no-preserve=mode,ownership $PETC_SRC/CarrierSettings/* $PETC_DST/CarrierSettings/
 cp -v --no-preserve=mode,ownership $PETC_SRC/felica/common.cfg $PETC_DST/felica/
@@ -255,7 +255,7 @@ sed -i 's/\/system\/product/\/product/' $PETC_DST/permissions/telephonyservice.x
 
 echo -e "\n\n**** Copying proprietary product framwork ****"
 PFW_SRC=/media/product/framework
-PFW_DST=/data/android_vendor_google/flame/proprietary/product/framework
+PFW_DST=$PWD/flame/proprietary/product/framework
 cp -v --no-preserve=mode,ownership $PFW_SRC/com.qualcomm.qti.imscmservice-V2.0-java.jar $PFW_DST/
 cp -v --no-preserve=mode,ownership $PFW_SRC/com.qualcomm.qti.imscmservice-V2.1-java.jar $PFW_DST/
 cp -v --no-preserve=mode,ownership $PFW_SRC/com.qualcomm.qti.imscmservice-V2.2-java.jar $PFW_DST/
@@ -273,7 +273,7 @@ cp -v --no-preserve=mode,ownership $PFW_SRC/vendor.qti.latency-V2.0-java.jar $PF
 
 echo -e "\n\n**** Copying proprietary product libraries (32-bit) ****"
 PLIB_SRC=/media/product/lib
-PLIB_DST=/data/android_vendor_google/flame/proprietary/product/lib
+PLIB_DST=$PWD/flame/proprietary/product/lib
 cp -v --no-preserve=mode,ownership $PLIB_SRC/com.qualcomm.qti.ant@1.0.so $PLIB_DST/
 cp -v --no-preserve=mode,ownership $PLIB_SRC/com.qualcomm.qti.imscmservice@2.0.so $PLIB_DST/
 cp -v --no-preserve=mode,ownership $PLIB_SRC/com.qualcomm.qti.imscmservice@2.1.so $PLIB_DST/
@@ -313,7 +313,7 @@ cp -v --no-preserve=mode,ownership $PLIB_SRC/vendor.qti.latency@2.0.so $PLIB_DST
 
 echo -e "\n\n**** Copying proprietary product libraries (64-bit) ****"
 PLIB64_SRC=/media/product/lib64
-PLIB64_DST=/data/android_vendor_google/flame/proprietary/product/lib64
+PLIB64_DST=$PWD/flame/proprietary/product/lib64
 cp -v --no-preserve=mode,ownership $PLIB64_SRC/com.qualcomm.qti.ant@1.0.so $PLIB64_DST/
 cp -v --no-preserve=mode,ownership $PLIB64_SRC/com.qualcomm.qti.imscmservice@2.0.so $PLIB64_DST/
 cp -v --no-preserve=mode,ownership $PLIB64_SRC/com.qualcomm.qti.imscmservice@2.1.so $PLIB64_DST/
@@ -354,7 +354,7 @@ cp -v --no-preserve=mode,ownership $PLIB64_SRC/vendor.qti.latency@2.0.so $PLIB64
 
 echo -e "\n\n**** Copying proprietary product privileged apps ****"
 PPAPP_SRC=/media/product/priv-app
-PPAPP_TRG=/data/android_vendor_google/flame/proprietary/product/priv-app
+PPAPP_TRG=$PWD/flame/proprietary/product/priv-app
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/AmbientSensePrebuilt/AmbientSensePrebuilt.apk $PPAPP_TRG/AmbientSensePrebuilt/
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/AppDirectedSMSService/AppDirectedSMSService.apk $PPAPP_TRG/AppDirectedSMSService/
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/CarrierLocation/CarrierLocation.apk $PPAPP_TRG/CarrierLocation/
@@ -383,7 +383,7 @@ cp -v --no-preserve=mode,ownership $PPAPP_SRC/obdm_stub/obdm_stub.apk $PPAPP_TRG
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/OemDmTrigger/OemDmTrigger.apk $PPAPP_TRG/OemDmTrigger/
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/OsloFeedback/OsloFeedback.apk $PPAPP_TRG/OsloFeedback/
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/qcrilmsgtunnel/qcrilmsgtunnel.apk $PPAPP_TRG/qcrilmsgtunnel/
-cp -v --no-preserve=mode,ownership $PPAPP_SRC/RefreshRateControl/RefreshRateControl.apk $PPAPP_TRG/RefreshRateControl/
+#cp -v --no-preserve=mode,ownership $PPAPP_SRC/RefreshRateControl/RefreshRateControl.apk $PPAPP_TRG/RefreshRateControl/
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/RilConfigService/RilConfigService.apk $PPAPP_TRG/RilConfigService/
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/SCONE/SCONE.apk $PPAPP_TRG/SCONE/
 cp -v --no-preserve=mode,ownership $PPAPP_SRC/Showcase/Showcase.apk $PPAPP_TRG/Showcase/
