@@ -245,7 +245,6 @@ cp -v --no-preserve=mode,ownership $PETC_SRC/sysconfig/pixel_2019_exclusive.xml 
 cp -v --no-preserve=mode,ownership $PETC_SRC/sysconfig/pixel_experience_2019_midyear.xml $PETC_DST/sysconfig/
 cp -v --no-preserve=mode,ownership $PETC_SRC/sysconfig/pixel_experience_2019.xml $PETC_DST/sysconfig/
 cp -v --no-preserve=mode,ownership $PETC_SRC/sysconfig/tmo_grsu_sysconfig.xml $PETC_DST/sysconfig/
-cp -v --no-preserve=mode,ownership $PETC_SRC/sysconfig/vzw_mvs_sysconfig.xml $PETC_DST/sysconfig/
 cp -v --no-preserve=mode,ownership $PETC_SRC/sysconfig/whitelist_com.android.omadm.service.xml $PETC_DST/sysconfig/
 cp -v --no-preserve=mode,ownership $PETC_SRC/vintf/manifest/vendor.qti.hardware.radio.atcmdfwd@1.0.xml $PETC_DST/vintf/manifest/
 
