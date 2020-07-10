@@ -249,10 +249,9 @@ cp -v --no-preserve=mode,ownership $PRD_DIR/etc/res/images/charger/main_font.png
 
 cp -v --no-preserve=mode,ownership $PRD_DIR/etc/res/values/charger/animation.txt $DST_DIR/proprietary/product/etc/res/values/charger/animation.txt
 
-cp -v --no-preserve=mode,ownership $PRD_DIR/etc/sysconfig/pixel_2018_exclusive.xml $DST_DIR/proprietary/product/etc/sysconfig/pixel_2018_exclusive.xml
-cp -v --no-preserve=mode,ownership $PRD_DIR/etc/sysconfig/qti_whitelist.xml $DST_DIR/proprietary/product/etc/sysconfig/qti_whitelist.xml
+cp -v --no-preserve=mode,ownership $PRD_DIR/etc/sysconfig/pixel_2019_midyear_exclusive.xml $DST_DIR/proprietary/product/etc/sysconfig/pixel_2019_midyear_exclusive.xml
+cp -v --no-preserve=mode,ownership $PRD_DIR/etc/sysconfig/pixel_experience_2019_midyear.xml $DST_DIR/proprietary/product/etc/sysconfig/pixel_experience_2019_midyear.xml
 cp -v --no-preserve=mode,ownership $PRD_DIR/etc/sysconfig/tmo_grsu_sysconfig.xml $DST_DIR/proprietary/product/etc/sysconfig/tmo_grsu_sysconfig.xml
-cp -v --no-preserve=mode,ownership $PRD_DIR/etc/sysconfig/vzw_mvs_sysconfig.xml $DST_DIR/proprietary/product/etc/sysconfig/vzw_mvs_sysconfig.xml
 cp -v --no-preserve=mode,ownership $PRD_DIR/etc/sysconfig/whitelist_com.android.omadm.service.xml $DST_DIR/proprietary/product/etc/sysconfig/whitelist_com.android.omadm.service.xml
 
 echo -e "\n\n**** Copying proprietary product libraries (32-bit) ****"
