@@ -622,6 +622,8 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/etc/init/vendor.qti.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.media.c2@1.0-service.rc \
     vendor/google/sargo/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/google/sargo/proprietary/vendor/etc/permissions/com.google.android.camera.experimental2018.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.google.android.camera.experimental2018.xml \
+    vendor/google/sargo/proprietary/vendor/etc/seccomp_policy/codec2.vendor.base.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.base.policy \
+    vendor/google/sargo/proprietary/vendor/etc/seccomp_policy/codec2.vendor.ext.policy:$(TARGET_COPY_OUT_VENDOR)/etc/seccomp_policy/codec2.vendor.ext.policy \
     vendor/google/sargo/proprietary/vendor/etc/sensors/config/ak991x_dri_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/ak991x_dri_0.json \
     vendor/google/sargo/proprietary/vendor/etc/sensors/config/b4s4_bmi160.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/b4s4_bmi160.json \
     vendor/google/sargo/proprietary/vendor/etc/sensors/config/b4s4_bmp380_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/b4s4_bmp380_0.json \
