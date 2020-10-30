@@ -1,6 +1,0 @@
-service rlsservice /vendor/bin/rlsservice
-    class hal
-    user system
-    group system
-    writepid /dev/cpuset/system-background/tasks
-
