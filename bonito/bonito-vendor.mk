@@ -42,7 +42,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/bonito/proprietary/bin/move_time_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_time_data.sh \
     vendor/google/bonito/proprietary/bin/pktlogconf:$(TARGET_COPY_OUT_SYSTEM)/bin/pktlogconf \
     vendor/google/bonito/proprietary/bin/vendor_cmd_tool:$(TARGET_COPY_OUT_SYSTEM)/bin/vendor_cmd_tool \
-    vendor/google/bonito/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/andsfCne.xml \
+    vendor/google/bonito/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/andsfCne.xml \
     vendor/google/bonito/proprietary/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml \
     vendor/google/bonito/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/google/bonito/proprietary/etc/permissions/com.quicinc.cne.CNEService.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.CNEService.xml \

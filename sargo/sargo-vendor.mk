@@ -43,7 +43,7 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/bin/move_time_data.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/move_time_data.sh \
     vendor/google/sargo/proprietary/bin/pktlogconf:$(TARGET_COPY_OUT_SYSTEM)/bin/pktlogconf \
     vendor/google/sargo/proprietary/bin/vendor_cmd_tool:$(TARGET_COPY_OUT_SYSTEM)/bin/vendor_cmd_tool \
-    vendor/google/sargo/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/andsfCne.xml \
+    vendor/google/sargo/proprietary/etc/cne/andsfCne.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/cne/andsfCne.xml \
     vendor/google/sargo/proprietary/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml \
     vendor/google/sargo/proprietary/etc/permissions/com.qualcomm.qti.imscmservice.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qualcomm.qti.imscmservice.xml \
     vendor/google/sargo/proprietary/etc/permissions/com.quicinc.cne.CNEService.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.quicinc.cne.CNEService.xml \
