@@ -16,7 +16,7 @@ copy () {
 echo -e "\e[1mExtracting 'system' proprietary files\e[0m"
 cat $PWD/sargo/proprietary-files-system.txt | while read proprietary_file
 do
-    source_location=/media/ssd/dump/system/system
+    source_location=~/dump/sargo/system/system
     target_location=$PWD/sargo/proprietary
     copy $proprietary_file $source_location $target_location
 done
@@ -24,7 +24,7 @@ done
 echo -e "\e[1mExtracting 'system_ext' proprietary files\e[0m"
 cat $PWD/sargo/proprietary-files-system_ext.txt | while read proprietary_file
 do
-    source_location=/media/ssd/dump/system_ext
+    source_location=~/dump/sargo/system_ext
     target_location=$PWD/sargo/proprietary/system_ext
     copy $proprietary_file $source_location $target_location
 done
@@ -32,7 +32,7 @@ done
 echo -e "\e[1mExtracting 'product' proprietary files\e[0m"
 cat $PWD/sargo/proprietary-files-product.txt | while read proprietary_file
 do
-    source_location=/media/ssd/dump/product
+    source_location=~/dump/sargo/product
     target_location=$PWD/sargo/proprietary/product
     copy $proprietary_file $source_location $target_location
 done
@@ -40,7 +40,7 @@ done
 echo -e "\e[1mExtracting 'vendor' proprietary files\e[0m"
 cat $PWD/sargo/proprietary-files-vendor.txt | while read proprietary_file
 do
-    source_location=/media/ssd/dump/vendor
+    source_location=~/dump/sargo/vendor
     target_location=$PWD/sargo/proprietary/vendor
     copy $proprietary_file $source_location $target_location
 done
