@@ -16,7 +16,7 @@ copy () {
 echo -e "\e[1mExtracting 'system' proprietary files\e[0m"
 cat $PWD/bonito/proprietary-files-system.txt | while read proprietary_file
 do
-    source_location=/media/ssd/bonito/system/system
+    source_location=~/dump/bonito/system/system
     target_location=$PWD/bonito/proprietary
     copy $proprietary_file $source_location $target_location
 done
@@ -24,7 +24,7 @@ done
 echo -e "\e[1mExtracting 'system_ext' proprietary files\e[0m"
 cat $PWD/bonito/proprietary-files-system_ext.txt | while read proprietary_file
 do
-    source_location=/media/ssd/bonito/system_ext
+    source_location=~/dump/bonito/system_ext
     target_location=$PWD/bonito/proprietary/system_ext
     copy $proprietary_file $source_location $target_location
 done
@@ -32,7 +32,7 @@ done
 echo -e "\e[1mExtracting 'product' proprietary files\e[0m"
 cat $PWD/bonito/proprietary-files-product.txt | while read proprietary_file
 do
-    source_location=/media/ssd/bonito/product
+    source_location=~/dump/bonito/product
     target_location=$PWD/bonito/proprietary/product
     copy $proprietary_file $source_location $target_location
 done
@@ -40,7 +40,7 @@ done
 echo -e "\e[1mExtracting 'vendor' proprietary files\e[0m"
 cat $PWD/bonito/proprietary-files-vendor.txt | while read proprietary_file
 do
-    source_location=/media/ssd/bonito/vendor
+    source_location=~/dump/bonito/vendor
     target_location=$PWD/bonito/proprietary/vendor
     copy $proprietary_file $source_location $target_location
 done
