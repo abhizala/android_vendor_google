@@ -15,6 +15,7 @@ etc/CarrierSettings/att_us.pb
 etc/CarrierSettings/bell_ca.pb
 etc/CarrierSettings/bluegrass_us.pb
 etc/CarrierSettings/boost_us.pb
+etc/CarrierSettings/boosttmo_us.pb
 etc/CarrierSettings/bouygues_fr.pb
 etc/CarrierSettings/btb_gb.pb
 etc/CarrierSettings/btc_gb.pb
@@ -138,7 +139,7 @@ etc/sysconfig/pixel_experience_2017.xml
 etc/sysconfig/pixel_experience_2018.xml
 etc/sysconfig/pixel_experience_2019_midyear.xml
 etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
-etc/sysconfig/whitelist_com.android.omadm.service.xml
+etc/sysconfig/allowlist_com.android.omadm.service.xml
 framework/libhwinfo.jar
 lib/libdmengine.so
 lib/libdmjavaplugin.so
