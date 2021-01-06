@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
 <manifest>
-  <remote fetch=".." name="poly" review="https://googleplex-polygon-android.googlesource.com/" />
+  <remote fetch="https://googleplex-polygon-android.googlesource.com/" name="poly" review="https://googleplex-polygon-android.googlesource.com/" />
 
-  <default remote="poly" revision="bonito-rvc-qpr1" />
+  <default remote="poly" revision="bonito-rvc-qpr2" />
 
 
   <project groups="non-hlos" name="platform/vendor/google/common/non-hlos/ssc/goog/vsc/algos-internal" path="nested/vsc/algos-internal" revision="a0d61bddb1beac5bca1e2afdaedb2ea90604bc03" />
@@ -14,7 +14,7 @@
 
 
 
-  <project groups="non-hlos,partner" name="platform/vendor/google_devices/common/non-hlos/ssc/goog" path="nested/ssc/goog" revision="e1f24ccc8dde3eff02185a659e50a2fcd45d5fec" />
+  <project groups="non-hlos,partner" name="platform/vendor/google_devices/common/non-hlos/ssc/goog" path="nested/ssc/goog" revision="dd15f5bbd3aee266058929f4c4474ec6a00843fb" />
 
 
 
