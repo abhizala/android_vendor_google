@@ -654,3 +654,57 @@ cc_prebuilt_library_shared {
 	prefer: true,
 	soc_specific: true,
 }
+
+prebuilt_etc_xml {
+        name: "android.hardware.identity.strongbox",
+        owner: "google",
+        src: "proprietary/vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml",
+        filename_from_src: true,
+        sub_dir: "vintf/manifest",
+        soc_specific: true,
+}
+
+prebuilt_etc_xml {
+        name: "android.hardware.keymaster@4.1-service.citadel",
+        owner: "google",
+        src: "proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml",
+        filename_from_src: true,
+        sub_dir: "vintf/manifest",
+        soc_specific: true,
+}
+
+prebuilt_etc_xml {
+        name: "android.hardware.weaver@1.0-service.citadel",
+        owner: "google",
+        src: "proprietary/vendor/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml",
+        filename_from_src: true,
+        sub_dir: "vintf/manifest",
+        soc_specific: true,
+}
+
+prebuilt_etc_xml {
+        name: "manifest_android.hardware.drm@1.3-service.widevine",
+        owner: "google",
+        src: "proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml",
+        filename_from_src: true,
+        sub_dir: "vintf/manifest",
+        soc_specific: true,
+}
+
+prebuilt_etc_xml {
+        name: "manifest_wifi_ext",
+        owner: "google",
+        src: "proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext.xml",
+        filename_from_src: true,
+        sub_dir: "vintf/manifest",
+        soc_specific: true,
+}
+
+prebuilt_etc_xml {
+        name: "rebootescrow-citadel",
+        owner: "google",
+        src: "proprietary/vendor/etc/vintf/manifest/rebootescrow-citadel.xml",
+        filename_from_src: true,
+        sub_dir: "vintf/manifest",
+        soc_specific: true,
+}

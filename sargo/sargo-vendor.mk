@@ -677,12 +677,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/etc/sensors/config/sns_tilt.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/sns_tilt.json \
     vendor/google/sargo/proprietary/vendor/etc/sensors/config/tmd2725_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/tmd2725_0.json \
     vendor/google/sargo/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
-    vendor/google/sargo/proprietary/vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.identity.strongbox.xml \
-    vendor/google/sargo/proprietary/vendor/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.keymaster@4.1-service.citadel.xml \
-    vendor/google/sargo/proprietary/vendor/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.weaver@1.0-service.citadel.xml \
-    vendor/google/sargo/proprietary/vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml \
-    vendor/google/sargo/proprietary/vendor/etc/vintf/manifest/manifest_wifi_ext.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/manifest_wifi_ext.xml \
-    vendor/google/sargo/proprietary/vendor/etc/vintf/manifest/rebootescrow-citadel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/rebootescrow-citadel.xml \
     vendor/google/sargo/proprietary/vendor/etc/default_b4.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_b4.mps \
     vendor/google/sargo/proprietary/vendor/etc/default_s4.mps:$(TARGET_COPY_OUT_VENDOR)/etc/default_s4.mps \
     vendor/google/sargo/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
@@ -1674,3 +1668,11 @@ PRODUCT_COPY_FILES += \
     vendor/google/sargo/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/common/WildCard/Wildcard/mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/generic/common/WildCard/Wildcard/mcfg_sw.mbn \
     vendor/google/sargo/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.dig \
     vendor/google/sargo/proprietary/vendor/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/mpss/readonly/vendor/mbn/mcfg_sw/mbn_sw.txt
+
+PRODUCT_PACKAGES += \
+    android.hardware.identity.strongbox \
+    android.hardware.keymaster@4.1-service.citadel \
+    android.hardware.weaver@1.0-service.citadel \
+    manifest_android.hardware.drm@1.3-service.widevine \
+    manifest_wifi_ext \
+    rebootescrow-citadel
